@@ -1,0 +1,18 @@
+# JsT code repository
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+._*
+.__*
+
+# Checkpoint (large file — upload to Hugging Face separately)
+checkpoint/*.pth
+
+# Outputs (runtime caches, figures)
+outputs/
+runs/
+*.npy
+*.npz
+*.csv
+*.pth
